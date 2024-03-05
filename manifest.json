@@ -1,0 +1,10 @@
+{
+  "name": "Test Extension",
+  "description": "Test Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "permissions": ["webNavigation"],
+  "action": { "default_popup": "popup.html" },
+  "background": { "service_worker": "background.js" }
+}
